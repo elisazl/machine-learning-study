@@ -1,0 +1,33 @@
+Elements in Reinforcement Learning:
+1)state
+2)action:Agent do action
+3)reward: judge the advantage or disadvantage of the action
+4)policy: the relationship between state and action, the aim of learning
+
+The difference between Reinforcement learning(RL) and classic supervised learning(CSL):
+RL: learning from experience, people cannot decide the right answer such as playing in a game
+CSL:learning from teacher, people know the answer
+
+one episode: game from the beginning to gameover
+aim: try to own maximum reward in one episode
+
+The category of RL:
+1) Model-based: There is prior knowledge to the environment. 
+2) Model-free: no prior knowledge. two classes: Policy-based and Value-based.
+
+Policy-based:
+1)on-policy: The agent learned and the agent interacting with the environment is the same
+2)off-policy: The agent learned and the agent interacting with the environment is different
+
+The refering figure is:
+https://images2018.cnblogs.com/blog/312753/201808/312753-20180821144139700-92990968.png
+
+Policy-base Actor: using NN as an actor, adding in random when choosing an action
+Attention:not a lookup table
+
+Reference website:
+https://www.cnblogs.com/fxjwind/p/9512202.html
+
+
+
+
